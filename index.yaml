@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-index-config
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head><title>Mercor Demo</title></head>
+    <body style="font-family: Arial; text-align: center; margin-top: 50px;">
+      <h1>Hello this my first project in mercor thanks</h1>
+    </body>
+    </html>
